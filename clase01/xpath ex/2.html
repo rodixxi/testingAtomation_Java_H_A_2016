@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Ejercicio 2 - Mas Nodos</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<script type="text/javascript" src="myscript.js"></script>
+	</head>
+	<body>
+		<ex id="ex">
+			<aaa>
+			  <bbb id="test"> </bbb>
+			</aaa>
+			<bbb>
+			  <ccc> </ccc>
+			</bbb>
+			<ccc> </ccc>
+			<ccc>
+			  <eee alt="ctrl">
+			    <fff> </fff>
+			  </eee>
+			</ccc>
+			<ccc>
+			  <eee>
+			    <fff> </fff>
+			   </eee>
+			</ccc>
+			<ddd>
+			  <bbb>
+			    <ccc>
+			      <bbb> </bbb>
+			    </ccc>
+			  </bbb>
+			</ddd>
+			<eee> </eee>
+			<eee> </eee>
+			<eee id="e1"> </eee>
+			<eee id="e2">
+			  <aaa> </aaa>
+			</eee>
+			<eee alt="ctrl">
+			  <fff> </fff>
+			</eee>
+			<eee> </eee>
+		</ex>
+		<textarea id="exShow"></textarea>
+
+		<p>
+			1) Seleccionar el primer nodo "bbb"<br>
+			<input type="text" onkeyup="verifyXpath(this,'Ly9hYWEvYmJi')"> <br/>
+			2) Seleccionar el ultimo nodo de "ccc" <br/>
+			<input type="text" onkeyup="verifyXpath(this,'Ly9kZGQvYmJiL2NjYw==')"> <br/>
+			3) Seleccionar el nodo '&lt;eee id="e1"&gt;' <br/>
+			<input type="text" onkeyup="verifyXpath(this,'Ly8qW0BpZD0nZTEnXQ==')"> <br/>
+			4) Seleccionar el nodo "aaa" que se encuentra dentro de '&lt;eee id="e2"&gt;' <br/>
+			<input type="text" onkeyup="verifyXpath(this,'Ly8qW0BpZD0nZTInXS9hYWE=')"> <br/>
+			5) Seleccionar el primer nodo "fff" <br/>
+			<input type="text" onkeyup="verifyXpath(this,'Ly9jY2MvZWVlW0BhbHQ9J2N0cmwnXS9mZmY=')"> <br/>
+		</p>
+	</body>
+</html>
