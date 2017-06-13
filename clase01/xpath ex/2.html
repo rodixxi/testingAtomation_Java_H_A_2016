@@ -44,15 +44,15 @@
 		<textarea id="exShow"></textarea>
 
 		<p>
-			1) Seleccionar el primer nodo "bbb"<br>
+			1) Seleccionar el primer nodo "bbb"<br> <!-- //bbb[@id] -->
 			<input type="text" onkeyup="verifyXpath(this,'Ly9hYWEvYmJi')"> <br/>
-			2) Seleccionar el ultimo nodo de "ccc" <br/>
+			2) Seleccionar el ultimo nodo de "ccc" <!-- //*[last()]/ccc --> <br/>
 			<input type="text" onkeyup="verifyXpath(this,'Ly9kZGQvYmJiL2NjYw==')"> <br/>
-			3) Seleccionar el nodo '&lt;eee id="e1"&gt;' <br/>
+			3) Seleccionar el nodo '&lt;eee id="e1"&gt;' <!-- //eee[@id="e1"]--> <br/>
 			<input type="text" onkeyup="verifyXpath(this,'Ly8qW0BpZD0nZTEnXQ==')"> <br/>
-			4) Seleccionar el nodo "aaa" que se encuentra dentro de '&lt;eee id="e2"&gt;' <br/>
+			4) Seleccionar el nodo "aaa" que se encuentra dentro de '&lt;eee id="e2"&gt;' <!-- //eee[@id="e2"]/aaa --> <br/>
 			<input type="text" onkeyup="verifyXpath(this,'Ly8qW0BpZD0nZTInXS9hYWE=')"> <br/>
-			5) Seleccionar el primer nodo "fff" <br/>
+			5) Seleccionar el primer nodo "fff"  <!-- //ccc/eee[@alt="ctrl"]/fff --><br/>
 			<input type="text" onkeyup="verifyXpath(this,'Ly9jY2MvZWVlW0BhbHQ9J2N0cmwnXS9mZmY=')"> <br/>
 		</p>
 	</body>

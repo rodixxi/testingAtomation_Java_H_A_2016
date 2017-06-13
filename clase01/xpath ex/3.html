@@ -22,12 +22,12 @@
 		<textarea id="exShow"></textarea>
 
 		<p>
-			1) Seleccionar el segundo parrafo<br>
+			1) Seleccionar el segundo parrafo<br> <!-- //p[@class="p2"] -->
 			<input type="text" onkeyup="verifyXpath(this,'Ly9wW0BjbGFzcz0ncDInXQ==')"> <br/>
-			2) Seleccionar tercer parrafo <br/>
+			2) Seleccionar tercer parrafo <br/> <!-- //p[text()="Parrafo 3"] -->
 			<input type="text" onkeyup="verifyXpath(this,'Ly9wW3RleHQoKT0nUGFycmFmbyAzJ10=')"> <br/>
 			3) el ultimo div <br/>
-			<input type="text" onkeyup="verifyXpath(this,'Ly9kaXZbQGlkPSdkb2cnXQ==')"> <br/>
+			<input type="text" onkeyup="verifyXpath(this,'Ly9kaXZbQGlkPSdkb2cnXQ==')"> <br/> <!-- //*[last()]/div -->
 		</p>
 	</body>
 </html>
