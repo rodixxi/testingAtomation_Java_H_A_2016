@@ -2,3 +2,17 @@
 =================   Automated Testing ======================
 ============================================================
 
+-- Indice --
+
+Introducccion a automatizacion
+Xpath
+Selenium IDE
+Maven & Selenium 
+Xpath + Selenium
+Puliedo Xpath
+Puleindo Selenium
+Suites
+Examen Final
+
+-- -- 
+
