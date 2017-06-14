@@ -75,3 +75,10 @@ Examen Final
 
 //*[text()='32'] trae el nodo  age
 //*[@type="String"] trae el nodo name y lastname
+
+-- Para probar en chrome console --
+
+$x("//*")
+
+Es una funcion incluida en chrome 
+
