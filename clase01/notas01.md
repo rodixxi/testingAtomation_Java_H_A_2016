@@ -3,7 +3,7 @@
 
 **Ejemplos de Xpath y xml**
 
-'''xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 
 <bookstore>
@@ -41,11 +41,11 @@
 </book>
 
 </bookstore>
-'''
+```
 
 **Como llamar con Xpath**
 
-'''xpath
+```xpath
 /bookstore/book[1]	Selects the first book element that is the child of the bookstore element
 /bookstore/book[last()]	Selects the last book element that is the child of the bookstore element
 /bookstore/book[last()-1]	Selects the last but one book element that is the child of the bookstore element
@@ -54,11 +54,11 @@
 //title[@lang='en']	Selects all the title elements that have a "lang" attribute with a value of "en"
 /bookstore/book[price>35.00]	Selects all the book elements of the bookstore element that have a price element with a value greater than 35.00
 /bookstore/book[price>35.00]/title	Selects all the title elements of the book elements of the bookstore element that have a price element with a value greater than 35.00
-'''
+```
 
 **Otro Ejemplo**
 
-'''xml
+```xml
 <p></p>
 
 <xml>
@@ -72,10 +72,11 @@
 '''xpath
 //*[text()='32'] trae el nodo  age
 //*[@type="String"] trae el nodo name y lastname
-'''
+```
 ##### -- Para probar en chrome console --
 
-$x("//*")
-
-*Es una funcion incluida en chrome *
+```jQuery
+$x("//*") 
+```
+*Es una funcion incluida en chrome*
 
