@@ -91,3 +91,5 @@ $x("//*")
 - [Ejercicio1](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/clase01/xpath%20ex/1.html)
 - [Ejercicio2](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/clase01/xpath%20ex/2.html)
 - [Ejercicio3](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/clase01/xpath%20ex/3.html)
+
+*[.Inicio](#introducccion-a-automatizacion-y-xpath)*
