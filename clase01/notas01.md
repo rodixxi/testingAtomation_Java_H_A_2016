@@ -3,6 +3,26 @@
 
 **Ejemplos de Xpath y xml**
 
+**Ejemplo en clase**
+
+```xml
+<p></p>
+
+<xml>
+	<property>
+		<name type="String">Juan</name>
+		<lastName type="String">Cho</lastName>
+		<age type="int">32</age>
+	</property>
+</xml>
+```
+```xpath
+//*[text()='32'] trae el nodo  age
+//*[@type="String"] trae el nodo name y lastname
+```
+
+**Ejemplo de [W3School](https://www.w3schools.com/xml/xml_xpath.asp)**
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -56,24 +76,7 @@
 /bookstore/book[price>35.00]/title	Selects all the title elements of the book elements of the bookstore element that have a price element with a value greater than 35.00
 ```
 
-**Otro Ejemplo**
-
-```xml
-<p></p>
-
-<xml>
-	<property>
-		<name type="String">Juan</name>
-		<lastName type="String">Cho</lastName>
-		<age type="int">32</age>
-	</property>
-</xml>
-'''
-'''xpath
-//*[text()='32'] trae el nodo  age
-//*[@type="String"] trae el nodo name y lastname
-```
-##### -- Para probar en chrome console --
+##### -- Para jugar en chrome dev tool --
 
 ```jQuery
 $x("//*") 
