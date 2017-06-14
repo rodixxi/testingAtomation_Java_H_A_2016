@@ -1,6 +1,8 @@
 
 ## =============   Automated Testing     ============
 
+***[Pagina](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/)**
+
 #### -- Indice --
 
 1. [Introducccion a automatizacion y Xpath](/clase01/notas01.md)
