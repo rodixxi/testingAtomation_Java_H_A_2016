@@ -1,5 +1,5 @@
 
-## =============   Automated Testing     ============
+## =============   Testing Automation     ============
 
 ***[Pagina](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/)**
 
