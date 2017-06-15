@@ -13,7 +13,7 @@ Ej:
 //*[@type="int" or and src="hola"]
 
 
-###Ejercicios
+### Ejercicios
 
 - [Ejercicio1](http://hapath.us-3.evennode.com/1)
 //div[@id='parent']/*
@@ -23,4 +23,5 @@ Ej:
 //name[string-length(text())=4]
 - [Ejercicio4](http://hapath.us-3.evennode.com/4)
 //a
+
 *[.Inicio](#)*
