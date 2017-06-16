@@ -1,0 +1,24 @@
+<html><head>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<script type="text/javascript" src="myscript.js"></script>
+	</head>
+	<body>
+		<textarea id="exShow">&lt;suite&gt;
+  &lt;test priority="critical" name="test1" /&gt;
+  &lt;test priority="low" name="test2" /&gt;
+  &lt;test priority="low" name="test3" /&gt;
+  &lt;test priority="medium" name="test4" /&gt;
+  &lt;test priority="high" name="test5" /&gt;
+&lt;/suite&gt;
+		</textarea>
+		<p>Todos los test critical y high</p>
+		<form action="res2" method="post" id="form">
+			<input type="text" id="name"><br>
+			<input type="text" id="xpath"><br>
+			<input type="button" onclick="_submit(this)" value="Mandar Respuesta"><br>
+			<img src="default.svg" id="loader" style="visibility: hidden;">
+			<img height="32px" width="32px" src="Yes_check.svg.png" id="check" style="visibility: hidden;">
+		</form>
+	
+
+</body></html>

@@ -15,13 +15,13 @@ Ej:
 
 ### Ejercicios
 
-- [Ejercicio1](http://hapath.us-3.evennode.com/1)
+- [Ejercicio1](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/clase02/xpath%20ex2/1.html)
 //div[@id='parent']/*
-- [Ejercicio2](http://hapath.us-3.evennode.com/2)
+- [Ejercicio2](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/clase02/xpath%20ex2/2.html)
 //test[@priority="critical" or @priority="high"]
-- [Ejercicio3](http://hapath.us-3.evennode.com/3)
+- [Ejercicio3](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/clase02/xpath%20ex2/3.html)
 //name[string-length(text())=4]
-- [Ejercicio4](http://hapath.us-3.evennode.com/4)
+- [Ejercicio4](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/clase02/xpath%20ex2/4.html)
 //a
 
 *[.Inicio](#)*

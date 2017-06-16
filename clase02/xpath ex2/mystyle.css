@@ -1,0 +1,22 @@
+#exShow {
+	width: 80%;
+    height: 60%;
+    margin: 0px 10%;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 0px 15px;
+}
+
+input[type="text"] {
+	border: solid #021bce 2px;
+    border-radius: 10px;
+    padding-left: 14px;
+    height: 24px;
+    margin: 4px 19px;
+}
+form {
+    width: 80%;
+    margin: 0px 10%;
+    text-align: center;
+}
