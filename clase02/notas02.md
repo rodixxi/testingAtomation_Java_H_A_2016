@@ -4,7 +4,7 @@
 # Xpath
 ## Clase 02
 
-**[PPT](../clase01/clase1_y_clase2.pdf)** *ver desde pagina 33*
+**[PPT](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/clase01/clase1_y_clase2.pdf#page=33)** *ver desde pagina 33*
 
 ### -- Xpath --
 

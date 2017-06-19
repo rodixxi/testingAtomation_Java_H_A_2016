@@ -3,7 +3,7 @@
 # Introducccion a automatizacion y Xpath
 ## Clase 01
 
-**[PPT](./clase1_y_clase2.pdf)** *ver hasta pagina 32*
+**[PPT](https://rodixxi.github.io/testingAtomation_Java_H_A_2016/clase01/clase1_y_clase2.pdf#page=1)** *ver hasta pagina 32*
 
 ### -- Xpath --
 
