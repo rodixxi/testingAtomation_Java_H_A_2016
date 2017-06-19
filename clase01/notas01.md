@@ -2,6 +2,9 @@
 
 # Introducccion a automatizacion y Xpath
 ## Clase 01
+
+**[PPT](./clase1_y_clase2.pdf)** *ver hasta pagina 32*
+
 ### -- Xpath --
 
 **Ejemplos de Xpath y xml**

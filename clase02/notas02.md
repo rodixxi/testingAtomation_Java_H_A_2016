@@ -3,6 +3,9 @@
 
 # Xpath
 ## Clase 02
+
+**[PPT](../clase01/clase1_y_clase2.pdf)** *ver desde pagina 33*
+
 ### -- Xpath --
 
 //*[string-length(text())=#] siendo # un numero
