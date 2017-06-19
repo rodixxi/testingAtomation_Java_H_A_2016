@@ -6,15 +6,15 @@
 **[PPT](https://rodixxi.github.io/testingAutomation_Java_H_A_2017/clase01/clase1_y_clase2.pdf#page=33)** *ver desde pagina 33*
 
 ### -- Xpath --
-
+```xpath
 //*[string-length(text())=#] siendo # un numero
-
+```
 Tambien tiene los operadores *and* y *or*
 
 Ej:
-
+```xpath
 //*[@type="int" or and src="hola"]
-
+```
 
 #### Ejercicios
 
