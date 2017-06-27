@@ -1,0 +1,37 @@
+/*****layer 01********/
+function showlayer01Div() {
+
+	var layer1 = document.getElementById("layer_back").style;	
+	var layer2 = document.getElementById("layer01").style;	
+	layer1.display = "block";
+	layer1.zIndex = "1499";
+	layer2.visibility = "visible";
+	layer2.zIndex = "1500";
+}
+function hidelayer01Div() {
+
+	var layer1 = document.getElementById("layer_back").style;	
+	var layer2 = document.getElementById("layer01").style;	
+	layer1.display = "none";
+	layer2.visibility = "hidden";
+
+}
+/*****layer 02********/
+function showlayer02Div() {
+
+	var layer1 = document.getElementById("layer_back").style;	
+	var layer2 = document.getElementById("layer02").style;	
+	layer1.display = "block";
+	layer1.zIndex = "1499";
+	layer2.visibility = "visible";
+	layer2.zIndex = "1500";
+}
+function hidelayer02Div() {
+
+	var layer1 = document.getElementById("layer_back").style;	
+	var layer2 = document.getElementById("layer02").style;	
+	layer1.display = "none";
+	layer2.visibility = "hidden";
+
+}
+

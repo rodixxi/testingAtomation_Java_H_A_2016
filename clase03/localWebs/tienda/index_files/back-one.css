@@ -1,0 +1,49 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+margin: 0;
+padding: 0;
+}
+
+body { /*background: url("../images/back-1.jpg") no-repeat fixed center 0 #ace4ff !important;*/ 
+
+background: #fff url(../images/back.jpg) repeat-x;
+margin:0; font-family:Arial, Helvetica, sans-serif;}
+
+
+#content {
+width: 1000px;
+margin: 0px auto;
+background:url(../images/-pageMain.jpg) no-repeat;
+}
+
+
+#sidebar .menuTop {
+background:url("../images/top-menu.png") no-repeat;
+float:left;
+height:6px;
+width:213px;
+}
+
+#sidebar .menuMiddle {
+background: #d33400;
+float:left;
+height:auto;
+overflow:hidden;
+padding:0 10px 10px 10px;
+width:193px;
+}
+
+#sidebar .menuBottom {
+background:url("../images/bottom-menu.png") no-repeat scroll 0 0 transparent;
+float:left;
+height:6px;
+margin-bottom:10px;
+width:213px;
+}
+
+#sidebar li {
+border-bottom:1px dotted #FF9900;
+font-size:12px;
+list-style-image:url("../images/li.png");
+margin:2px 0;
+padding:2px 0;
+}

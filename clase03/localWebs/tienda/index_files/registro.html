@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0041)http://backupcomputacion.com/registro.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+
+
+<title></title>
+<script type="text/javascript" src="./jquery-1.4.3.min.js.download"></script>
+  <script type="text/javascript" src="./jquery.validate.js.download"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#form-1").validate({
+        rules: {
+          nombre: "required",// simple rule, converted to {required:true}
+		  password: "required",// simple rule, converted to {required:true}
+		  razon_social: "required",// simple rule, converted to {required:true}
+		  cuit: "required",// simple rule, converted to {required:true}
+		  fecha_nacimiento: "required",// simple rule, converted to {required:true}
+		  telefono: "required",// simple rule, converted to {required:true}
+		  
+          correo: {// compound rule
+          required: true,
+          email: true
+        },
+        url: {
+          url: false
+        },
+        comentarios: {
+          required: true
+        }
+        },
+        messages: {
+          comment: "Please enter a comment."
+        }
+      });
+    });
+  </script>
+    
+    
+    <style>
+	
+ 
+	
+    label.error {   color: red; padding-left: 10px; font-size:9px }
+	/* contenedor login */
+
+.loginCont { width:90%; padding:20px;}
+
+.req-min { background: url(../images/input.gif) #FFFFFF repeat-x;
+height:15px;
+border:1px solid #999999;
+width:99%;
+padding:2px;
+padding-top:0;
+height:25px;
+}
+
+h2 { margin: 0 0 5px 0; padding:0; color:#003366; text-shadow: #fff -1px -1px}
+
+
+ .req-email { background: url(images/input.gif) #FFFFFF repeat-x;
+height:15px;
+border:1px solid #ccc;
+width:99%;
+padding:2px;
+padding-top:0;
+}
+
+ .req-min:focus {
+background: url(images/input-focus.gif) #fff6ca repeat-x;
+color:#CC3300;
+border:1px solid #FF9900; }
+ label { display:block; border-bottom:1px dotted #CCCCCC; margin-bottom:5px; width:100%; font-size:15px; color:#003366}
+	div { font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+	</style>
+
+
+
+</head>
+<body>
+<div id="MSN" style="width:400px; height:auto;  margin:0 0 10px 5px; float:left; "> 
+
+<h2>Registro BackupComputacion</h2>
+<form id="form-1" class="form" method="post" action="http://backupcomputacion.com/registro.php?accion=insertUser">
+ 
+<label>Nombre y apellido</label>
+<input name="nombre" class="input req-min" minlength="3" maxlength="40">
+
+<label>E-mail</label>
+<input name="correo" class="input req-min" minlength="3" maxlength="40">
+
+<label>Password de ingreso</label>
+<input name="password" class="input req-min" minlength="3" maxlength="40" type="password">
+
+
+<label>Fecha de Nacimiento</label>
+<input name="fecha_nacimiento" class="input req-min" minlength="3" maxlength="40">
+
+<label>Telefono</label>
+<input name="telefono" class="input req-min" minlength="3" maxlength="40">
+<label>Direccion</label>
+<input name="direccion" class="input req-min" minlength="3" maxlength="40">
+
+ 
+<input type="hidden" name="fecha" value="2017/06/21/23/07/29"><label> </label>
+<input id="submitBtn1" class="sendBtn" type="submit" value="Registrarse">
+
+
+</form>
+
+
+
+</div> 
+ 
+
+
+
+ 
+
+</body></html>

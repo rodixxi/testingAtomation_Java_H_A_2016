@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://accounts.google.com/" />
+<title>ejercicio4</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ejercicio4</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/signin/v2/identifier?passive=1209600&amp;continue=https%3A%2F%2Faccounts.google.com%2FManageAccount&amp;followup=https%3A%2F%2Faccounts.google.com%2FManageAccount&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=identifierId</td>
+	<td>rodixxi</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.ZFr60d.CeoRYc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=password</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=password</td>
+	<td>MnbBLaq10q6V</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=passwordNext</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
