@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Example test run" duration-ms="7239" started-at="2017-06-27T22:07:58Z" finished-at="2017-06-27T22:08:05Z">
+    <groups>
+    </groups>
+    <test name="Simple Test" duration-ms="7239" started-at="2017-06-27T22:07:58Z" finished-at="2017-06-27T22:08:05Z">
+      <class name="GoogleDiverTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:GoogleDiverTest@96532d6]" name="testSetUp" is-config="true" duration-ms="1005" started-at="2017-06-27T19:07:58Z" finished-at="2017-06-27T19:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="verifyWikepediaPageTittle()[pri:0, instance:GoogleDiverTest@96532d6]" name="verifyWikepediaPageTittle" duration-ms="6225" started-at="2017-06-27T19:07:59Z" finished-at="2017-06-27T19:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWikepediaPageTittle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GoogleDiverTest@96532d6]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-27T19:08:05Z" finished-at="2017-06-27T19:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GoogleDiverTest -->
+    </test> <!-- Simple Test -->
+  </suite> <!-- Example test run -->
+</testng-results>
