@@ -15,6 +15,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
 public class GoogleDiverTest {
 
     private WebDriver driver;
@@ -28,9 +32,10 @@ public class GoogleDiverTest {
     protected String WORDS_TO_SEARCH_IN_GOOGLE= "CATS";
 
     @BeforeClass // Setting chromedriver driver
-    public void testSetUp() {
-        // Call chromedriver.
-        System.setProperty("webdriver.chrome.driver", "/home/rodixxi/Repositories/testingAutomation_Java_H_A_2017/chromedriver");
+    public void testSetUp() throws IOException {
+        /* Call chromedriver. */
+        String chromediverPath = new File("../../chromedriver.exe").getCanonicalPath();
+        System.setProperty("webdriver.chrome.driver", chromediverPath);
                 //Disable barInfo
                 ChromeOptions options = new ChromeOptions();
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
@@ -74,17 +79,17 @@ public class GoogleDiverTest {
         //Press search button
         driver.findElement(By.id(GOOGLE_SEARCH_BUTTTON)).click();
         //Wait till GOOGLE_IMAGES_LINK is present
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 15);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(WIKIPEDIA_LINK));
         //Press search button
         driver.findElement(WIKIPEDIA_LINK).click();
         //Verify Wikipedia Title
         getTitle = driver.getTitle();
-        Assert.assertEquals(getTitle, CATS_TITLE);
+        Assert.assertEquals(getTitle, "Cats");
     }
 
     @Test
-    public void scenario1(){
+    public void googleAccountLogin(){
         driver.get(appURL);
         //Verify Google Title
         String getTitle = driver.getTitle();
@@ -99,7 +104,25 @@ public class GoogleDiverTest {
         //Press search button
         driver.findElement(WIKIPEDIA_LINK).click();
         getTitle = driver.getTitle();
-        Assert.assertEquals(getTitle, "My Account");
+        Assert.assertEquals(getTitle, "Mi Cuenta");
+        driver.findElement(By.id("gb_70")).click();
+        WebDriverWait wait2 = new WebDriverWait(driver, 10);
+        WebElement element2 = wait2.until(ExpectedConditions.elementToBeClickable(By.id("identifierNext")));
+        //Insertar Usuario
+        driver.findElement(By.id("identifierId")).sendKeys("rodixxi");
+        //Clickear en Next
+        driver.findElement(By.id("identifierNext")).click();
+        WebDriverWait wait3 = new WebDriverWait(driver, 15);
+        WebElement element3 = wait3.until(ExpectedConditions.elementToBeClickable(By.id("passwordNext")));
+        //Insertar Contraseña
+        driver.findElement(By.name("password")).sendKeys("MnbBLaq10q6V");
+        //Clickear en Login
+        driver.findElement(By.id("passwordNext")).click();
+        //Verificar que el usuario se encuentra en la página correcta
+        WebDriverWait wait4 = new WebDriverWait(driver, 20);
+        WebElement element4 = wait4.until(ExpectedConditions.elementToBeClickable(By.linkText("https://www.google.com")));
+        getTitle = driver.getTitle();
+        Assert.assertEquals(getTitle, "Mi Cuenta");
     }
 
     @AfterClass
