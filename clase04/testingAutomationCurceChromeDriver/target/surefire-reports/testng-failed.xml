@@ -7,6 +7,7 @@
         <methods>
           <include name="testSetUp"/>
           <include name="verifyWikepediaPageTittle"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- GoogleDiverTest -->
     </classes>

@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.461 sec - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.658 sec <<< FAILURE! - in TestSuite
+verifyWikepediaPageTittle(GoogleDiverTest)  Time elapsed: 16.522 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Cats - Wikipedia, la enciclopedia libre] but found [Google]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at GoogleDiverTest.verifyWikepediaPageTittle(GoogleDiverTest.java:57)
+
