@@ -85,10 +85,17 @@ public class ejerciciosClase03 {
 
 
     @Test
-    public void ejercicio03(){
+    public void ejercicio03() {
         search("la comida");
         waitForAndClick("//a[text()='Noticias']");
         waitForAndClick("//a[last()]");
+    }
+
+    @Test
+    public void ejercicio04(){
+        search("algo");
+        waitForAndClick("//a[text()='Peliculas! XD']");
+        Assert.assertEquals(driver.getTitle(), "IMDb - Movies, TV and Celebrities - IMDb");
     }
 
 
