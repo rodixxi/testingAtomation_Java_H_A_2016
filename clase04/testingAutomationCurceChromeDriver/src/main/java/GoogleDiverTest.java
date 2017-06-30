@@ -46,7 +46,7 @@ public class GoogleDiverTest {
     /*
     @Test
     // Ejecuting Test
-    public void verifyWikepediaPageTittle() {
+    public void verifyWikepediaPageTittle()gi {
         //Open Google
         driver.get(appURL);
         //Verify Google Title
