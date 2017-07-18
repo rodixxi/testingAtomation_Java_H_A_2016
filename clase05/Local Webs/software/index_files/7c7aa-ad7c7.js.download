@@ -1,0 +1,7 @@
+/* charset "utf-8"; */
+/* Pieces: seo_tracking */
+/* base_path_placeholder */
+/* @JAVASCRIPT seo_tracking */
+Core.register("track-seo-search",function(a){var b={sInitClass:"track-seo-search"};return{aContainers:[],init:function(){this.setContainers();this.setBehaviour()},setContainers:function(){this.aContainers=$.makeArray($(document.body).find("."+b.sInitClass))},setBehaviour:function(){var d=this,e=0,g=this.aContainers,c=g.length,f,h="click";for(;e<c;e++){f=g[e];if(f.tagName.toLowerCase()==="form"){h="submit"}$(f).bind(h,this.getCallback())}},getCallback:function(){var c=this;return function(d){c.createCookie(this.id)}},createCookie:function(c){Namespace.utilities.cookie.setCookieMultiDomain("search_box_done",c,2,"seconds")}}});
+/* @end JAVASCRIPT seo_tracking */
+/* js_templates_placeholder */

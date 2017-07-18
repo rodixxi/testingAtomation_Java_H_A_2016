@@ -1,0 +1,132 @@
+﻿
+
+h1
+{
+	 font-family:verdana;
+	 font-size:16pt;
+	 margin:0;
+	 color:#414142; /*gris oscuro*/
+	 line-height:45px;
+}
+
+h2
+{
+	font-family:verdana;
+	font-size:14pt;
+	margin:0;
+	color:#009EE0;/*Celeste*/
+	line-height:35px;
+}
+
+h4
+{
+	 font-family:verdana;
+	 font-size:12pt;
+	 margin:0;
+	 color:#414142; /*gris oscuro*/
+	 line-height:35px;
+}
+
+
+p
+{
+	line-height: 20px;
+}
+
+.botonnavegacion /*color verde claro letra gris oscura son los botones que sirven para que el Usuario pueda enviar la informacion o cancelar la solicitud*/
+{
+background-color:#A2C653;
+float : left;
+height : 28px;
+color: #58585A;
+text-align : center;
+font-family : Verdana;
+font-size : 9pt;
+padding : 2px;
+/*width : 10%;*/
+vertical-align:middle;
+cursor:hand;
+margin : 10px;
+font-weight : bold;
+border-style: hidden;
+border-width: inherit;
+}
+
+.botonDisable
+{
+	border-style: hidden;
+	border-width: inherit;
+	background-color:#d9dadc;
+	float: left;
+	height: 28px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 9pt;
+	padding: 2px;
+	color: #fff;
+	vertical-align: middle;
+	cursor: hand;
+	margin: 10px;
+	font-weight: bold;
+}
+
+
+
+.botonnavegacion a:link /*link que sirve para la llamada a la accion indicada por el boton*/
+{
+	  text-decoration:none;
+	  color:#414142;
+}
+
+.botonnavegacion a:visited /*link que sirve para la llamada a la accion indicada por el boton*/
+{
+	  text-decoration:none;
+	  color:#414142;
+}
+
+
+/*  ERRORES   */
+#Error
+{
+	background-image:url('../imagenes/amarillo.gif');
+	height:70px;
+	width:83px;
+	background-repeat : no-repeat;
+	
+}
+
+
+.TxtError
+{
+	Display:block;
+	color:red;
+
+}
+
+h6
+{
+	font-size: x-small;
+	color: Red;
+}
+
+.advertencia
+{
+	color:Yellow;
+	margin-top:30px;
+	font-size: medium;	
+	background-image: url('../imagenes/amarillo.gif');
+	background-repeat : no-repeat;
+	height:70px;
+	width:70px;
+}
+
+.errorGrave
+{
+	color: Red;
+	margin-top:30px;
+	font-size: medium;	
+	background-image: url('../imagenes/rojo.gif');
+	background-repeat : no-repeat;
+	height:70px;
+	width:70px;
+}

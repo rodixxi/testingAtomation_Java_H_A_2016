@@ -1,0 +1,811 @@
+﻿/** CSS que guarda la configuracion de la posicion de las capas estructura de pagina**/
+
+* {
+   padding:0;
+   margin:0 0 0px 0px;
+}
+
+/*Marca características generales de todas las paginas tipo, size de font colores generales*/
+body
+{
+	background:  url('imagenes/barra-vertical.png') repeat-x;
+    margin: 0;
+    padding: 0;
+    color:#414142;/*Gris de la letra*/
+    font-family:verdana;
+    font-size:9pt;
+}
+
+
+/*Marca el área o resolucion sobre la que se trabajará*/
+.page {
+width : 97%;
+margin-left : auto;
+margin-right : auto;
+position : static; 
+}
+
+
+/*************************************************************************************************/
+/*Comienzo del encabezado*/
+
+/*capa contenedora del encabezado*/
+#header { 
+position : relative;
+background-position:right;
+margin-bottom : 0;
+padding : 0 0 0 0;
+top : 0;
+left : 0;
+width : 100%;
+height : 150px
+}
+
+/*#logo {
+background-image : url('imagenes/logo-anses.png');
+background-repeat : no-repeat;
+margin-top : 40px;
+float : left;
+width : 100%;
+height : 75px;
+}*/
+
+#logo{width: 336px; height: 96px; background: url('imagenes/logo-anses.png') no-repeat 0 40px; display: block; margin: 0 auto; padding-top: 88px}
+
+#fondoHeader {
+background-image : url('../imagenes/Encabezado_Fondo.jpg');
+background-repeat : no-repeat;
+margin-right : 0px;
+float : right;
+width : 50%;
+height: 70px;
+margin-right : 0px;
+}
+
+#fondoHeader h3 {
+color : #fff;
+text-align : right;
+font-size : 15pt;
+font-family : Arial;
+margin-bottom : 6px;
+margin-top : 13px;
+margin-right : 10px;
+}
+
+#fondoHeader span {   
+color : #a0d081;	
+}
+
+
+/**************************************  FIN EN CABEZADO ****************************************/
+
+
+
+/****************************************** Barra Menu General Gris ********************************/
+#encab_Menu {
+clear : both;
+background-color : #e7e8e9;
+padding:0 13px 0px 0px;
+margin-top : 0;
+height : 30px;
+}
+
+#icono_FAC {
+float : right;
+width : 3%;
+background-image : url('../imagenes/bt_help.png');
+background-repeat : no-repeat;
+height : 20px;
+margin-top : 3px;
+}
+
+#icono_Home {
+float : right;
+width : 3%;
+background-image : url('../imagenes/bt_home.png');
+background-repeat : no-repeat;
+height : 20px;
+margin-top : 3px;
+}
+
+#icono_Exit {
+float : right;
+width : 3%;
+background-image : url('../imagenes/bt_exit.png');
+background-repeat : no-repeat;
+height : 20px;
+margin-top : 3px;
+}
+
+/************************************ Fin barra gris ************************************************/
+
+
+/********************************** Contenido ***********************************************/
+
+h1
+{
+	 font-family:verdana;
+	 font-size:14pt;
+	 margin-bottom:5px;
+	 color:#414142; /*gris oscuro*/
+	 line-height:35px;
+}
+
+h2
+{
+	font-family:verdana;
+	font-size:13pt;
+	margin-bottom:5px;
+	color:#507cd1;/*azul*/
+	line-height:35px;
+}
+
+h3
+{
+	font-family:verdana;
+	font-size:12pt;
+	margin-bottom:3px;
+	color:#414142; /*gris oscuro*/
+	line-height:30px;
+}
+
+
+h4
+{
+	 font-family:verdana;
+	 font-size:11pt;
+	 margin-bottom:3px;
+	 color:#507cd1;/*azul*/
+	 line-height:30px;
+}
+
+h5
+{
+	 font-family:arial;
+	 font-size:20pt;
+	 margin-bottom:5px;
+	 color:#507cd1; /*gris oscuro*/
+	 line-height:35px;
+	 
+}
+
+
+p
+{
+	line-height: 25px;
+}
+
+
+
+
+
+
+#identificacion {
+float : right;
+color : #414142;
+font-size:12px;
+height : 20px;
+margin-top : 3px;
+padding : 0 10px 0 0;
+}
+
+
+/*caja blanca contenedora*/
+#contenido {
+background-color : #fff;
+padding:0 5px 5px 9px;
+position : relative;
+height:600px;
+top : 0;
+z-index: 0;
+overflow: auto;
+}
+
+*:first-child + html #contenido {
+height : 600px;
+}
+.corte {
+clear : both;
+}
+
+
+
+#areatrabajo {
+float : left;
+width : 80%;
+margin-top : 15px;
+}
+
+
+
+#area {
+background-color : #58585A;
+float : left;
+width : 18.3%;
+padding : 9px;
+text-align : left;
+}
+#pendiente {
+color : #034769;
+}
+#cumplido {
+color : #fff;
+}
+
+
+
+#cajaformulario
+{
+	border: 1px solid #58585A;
+	background-color: #009EE0;
+	font-size: 9pt;
+	padding: 20px 10px 20px 10px;
+	margin: 40px 10px 40px 10px;
+	float: left;
+	width: 95%;
+	z-index: 1;
+	position: relative;
+}
+#cajaformulario p
+{
+	line-height: 30px;
+}
+
+.etiquetas {
+color : black;
+float : left;
+margin-left : 10px;
+}
+.datos {
+float : left;
+margin-left : 10px;
+}
+.etiquetas p {
+line-height : 28px;
+margin : 0 0 0 0;
+}
+
+.comboBox
+{
+	padding: 1px 2px 0px 0px;
+	margin-left : 6px;
+	border-style : none none solid solid;
+	border-bottom: #C7C8CA 1px;
+	border-left: #C7C8CA 1px;
+	height: 20px;
+	font-size: 9pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}	
+	
+.textbox
+{
+	background-color: #507cd1;
+	border-width: 1px;
+	border-style: none none solid solid;
+	padding: 0px 0px 1px 2px;
+	border-bottom: #C7C8CA 1px;
+	border-left: #C7C8CA 1px;
+	height: 20px;
+	font-size: 9pt;
+	margin: 5px;
+	color: white;
+}
+
+.textboxCuil
+{
+    background-color: #507cd1;
+	border-style: none none solid solid;
+	padding: 0px 0px 1px 2px;
+	border-bottom: #C7C8CA 1px;
+	border-left: #C7C8CA 1px;
+	height: 20px;
+	font-size: 9pt;
+	margin: 5px;
+	color: white;
+}
+
+.textboxCaptcha
+{
+	background-color: #BDE4F7;
+	border-style: none none solid solid;
+	padding: 0px 0px 1px 2px;
+	border-bottom: #C7C8CA 1px;
+	border-left: #C7C8CA 1px;
+	height: 20px;
+	font-size: 9pt;
+	margin: 5px;
+}
+
+.imagenCaptcha
+{
+	height:20px;
+	width:20px;
+}
+
+
+/*******************  ERRORES  *******************/
+#Error
+{
+	background-image:url('../imagenes/Atencion.gif');
+	height:70px;
+	width:83px;
+	background-repeat : no-repeat;
+	
+}
+.TxtError
+{
+	Display:block;
+	color:red;
+
+}
+
+#contenidoError
+{
+	background-color : #fff;
+	padding:15px 5px 5px 9px;
+	position : relative;
+	color:Red;
+	height:600px;
+	top : 0;
+	z-index: 0;
+	overflow: auto;
+}
+
+/*********************** fin errores ******************/
+
+
+/*----------GRILLA ----------------*/
+
+.Grilla
+{
+	border: #c0c0c0 1px solid;
+	font-size: 8pt;
+	font-family:Verdana, Arial;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+}
+.GrillaHead
+{
+	font-family:Verdana, Arial;
+	color:#ffffff;
+	font-size: 8pt;
+	font-weight:bold;
+	background-color: #005091;
+}
+.GrillaHead a
+{
+	text-decoration:none;
+}
+
+.GrillaHeadPanel
+{
+
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.GrillaHeadPanel a
+{
+
+	text-decoration:none;
+}
+
+
+.GrillaBody
+{
+	text-decoration: none;
+	padding: 2px 2px 2px 5px;
+	border: 1px solid #c0c0c0;
+	
+}
+.GrillaHyperlink /*cuadro de texto con bordes redondeados color azul claro*/
+{
+	border-radius: 30px;
+	background-color: #009EE0;
+	padding:10px;
+	height:150px;
+	width:200px;
+}
+
+.GrillaRadioButton /*cuadro de texto con bordes redondeados color azul claro*/
+{
+	border-radius: 20px;
+	background-color: #009EE0;
+	padding:3px;
+	height:20px;
+	width:100px;
+	text-align: center;
+}
+
+.HperLink
+{
+	font-family:Verdana, Arial;
+	color:#ffffff;
+	font-size: 12pt;
+	font-weight:bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.GrillaAternateItem
+{
+	background-color: #f0f0f0;
+	font-size: 8pt;
+		
+}
+
+.GrillaPiePagina
+{
+	vertical-align: middle;
+	font-size: 10px;
+	height: 18px;
+	background-color: #507cd1;
+	padding: 2px 4px 2px 4px;
+	text-align: right;
+	margin-top: 2px;
+	margin-bottom: 3px;
+}
+/*Bloquea las cabeceras de las grillas*/
+th {
+	border: 1px solid #c0c0c0;
+	position:relative;
+	cursor: default; 
+	z-index: 10;
+}
+
+
+
+.Calendario 
+{
+	vertical-align: middle;
+	font-size: 10px;
+	height: 18px;
+	padding: 2px 4px 2px 4px;
+	text-align: right;
+	margin-top: 2px;
+	margin-bottom: 3px;
+	background-color: #00ABA4; 
+	color:White;
+}
+
+/*----------GRILLA Turno----------------*/
+
+.GrillaTurno
+{
+	border: #c0c0c0 1px solid;
+	font-size: 8pt;
+	font-family:Verdana, Arial;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+}
+.GrillaHeadTurno
+{
+	font-family:Verdana, Arial;
+	color:#ffffff;
+	font-size: 8pt;
+	font-weight:bold;
+	background-color: #005091;
+}
+.GrillaHeadTurno a
+{
+	text-decoration:none;
+}
+
+.GrillaHeadPanelTurno
+{
+
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.GrillaHeadPanelTurno a
+{
+
+	text-decoration:none;
+}
+
+
+.GrillaBodyTurno
+{
+	text-decoration: none;
+	padding: 2px 2px 2px 5px;
+	border: 1px solid #c0c0c0;
+	
+}
+.GrillaHyperlinkTurno /*cuadro de texto con bordes redondeados color azul claro*/
+{
+	border-radius: 30px;
+	background-color: #009EE0;
+	padding:10px;
+	height:150px;
+	width:200px;
+}
+
+.GrillaRadioButtonTurno /*cuadro de texto con bordes redondeados color azul claro*/
+{
+	border-radius: 20px;
+	background-color: #00ABA4;
+	padding:3px;
+	height:20px;
+	width:100px;
+}
+
+.HperLinkTurno
+{
+	font-family:Verdana, Arial;
+	color:#ffffff;
+	font-size: 15pt;
+	font-weight:bold;
+	text-align: center;
+}
+
+.GrillaAternateItemTurno
+{
+	background-color: #f0f0f0;
+	font-size: 8pt;
+		
+}
+
+.GrillaPiePaginaTurno
+{
+	vertical-align: middle;
+	font-size: 10px;
+	height: 18px;
+	background-color: #507cd1;
+	padding: 2px 4px 2px 4px;
+	text-align: right;
+	margin-top: 2px;
+	margin-bottom: 3px;
+}
+
+
+
+/*Mantiene las cabeceras al TOP de todos los items*/
+th.locked {z-index: 98;}
+
+/*********************** fin Grilla ******************/
+
+
+/******************** zona de botones **************************/
+#barraNavegacion {
+	position : relative;
+	right : 0;
+	margin-bottom : 40px;
+	bottom : 0;
+	clear : both;
+}
+
+.Botones /*Boton verde claro son los botones que sirven para que el Usuario pueda enviar la informacion o cancelar la solicitud*/
+{
+	background-color: #00ABA4;
+	float : left;
+	color: #FFF;
+	text-align : center;
+	font-family : Verdana;
+	font-size : 11pt;
+	padding : 5px;
+	vertical-align:middle;
+	cursor:hand;
+	margin : 10px;
+	font-weight : bold;
+	border-style: hidden;
+	border-width: inherit;
+}
+
+.botonDisable
+{
+	border-style: hidden;
+	border-width: inherit;
+	background-color:#d9dadc;
+	float: left;
+	height: 28px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 9pt;
+	padding: 2px;
+	color: #fff;
+	vertical-align: middle;
+	cursor: hand;
+	margin: 10px;
+	font-weight: bold;
+}
+
+
+.BotonGradient /*Boton gradien violeta a azul*/
+{
+	background-image: url('imagenes/botonhome.png');
+    background-repeat : no-repeat;
+    background-position : center;
+	height : 40px;
+	width: 130px;
+	color: #fff;
+	text-align : center;
+	font-family : Verdana;
+	font-size : 12pt;
+	padding : 2px;
+	vertical-align:middle;
+	cursor:hand;
+	margin : 10px;
+	font-weight : bold;
+	border-style: hidden;
+	border-width: 0px;
+}
+
+.Botones a:link /*link que sirve para la llamada a la accion indicada por el boton*/
+{
+	  text-decoration:none;
+	  color:#414142;
+}
+
+.Botones a:visited /*link que sirve para la llamada a la accion indicada por el boton*/
+{
+	  text-decoration:none;
+	  color:#fff;
+}
+
+
+/********************** fin zona botones **********************/
+
+
+/************************************ Fin contenido ************************************************/
+
+
+
+/********************************** Footer ***********************************************/
+
+/*#footer {
+background:  #fff url('imagenes/barra-vertical.png') repeat-x;
+color : #fff;
+font-size : 10pt;
+padding : 10px 0 0 0;
+text-align : center;
+line-height : normal;
+position :  relative;
+clear : both;
+z-index : -2;
+}*/
+/*background: url('imagenes/barra-vertical.png') repeat-x;*/ 
+
+#footer{height: 100px; width: 100%; position:relative;  bottom: 0px; background-color: #00ABA4;}
+#footer p{height: 100px; width: 1024px;text-align : center; margin: 0 auto; font-family: 'Helvetica-BD'; color: White; font-size: 16px; padding: 20px 0 20px 0}
+
+
+/************************************ Fin footer ************************************************/
+
+
+.solapa
+{
+      text-align: center;
+      text-decoration: none;
+      margin: 1;
+      float: left;
+      display: block;
+      background: url(  "../Imagenes/tabright5.gif" ) right top;
+      padding: 6px 6px 4px 6px;
+      color: #3D7EC7;
+      height: 20px;
+      font-weight: bold;
+      font-size: 8pt;
+      width: 85px;
+      font-family: Verdana, 'Microsoft Sans Serif';
+      
+}
+      
+.solapa:hover
+{
+      font-family: Verdana, 'Microsoft Sans Serif';
+      background-position: 100% -49px;
+      font-size: 8pt;
+      width: 85px;
+      color: #0B3D91;
+}
+
+
+.solapa_activo 
+{
+      background: url(  "../Imagenes/tabright5.gif" ) right top;
+      background-position: 100% -49px; 
+      color: #0b3d91; 
+      text-align: center;
+      text-decoration: none;
+      margin: 1;
+      
+      display: block;
+      padding: 6px 6px 4px 6px;
+      height: 20px;
+      font-weight: bold;
+      font-size: 8pt;
+      width: 85px;
+      font-family: Verdana, 'Microsoft Sans Serif';
+}
+
+.btnAzulNormal
+{
+	background: #fff url('imagenes/barra-horizontal-azul.png') repeat-y;
+	border-radius: 10px;
+	
+	color: #FFF;
+	text-align : center;
+    font-family: Gotham Bold, Arial, sans-serif; 
+	font-size : 12pt;
+	padding : 8px;
+	vertical-align:middle;
+	cursor:pointer;
+	margin : 10px;
+	font-weight : bold;
+	border-style: hidden;
+	border-width: 0px;
+}
+
+.btnTransparente
+{
+	background-color: transparent; 
+	float : none;
+	color: #FFF;
+	text-align : center;
+    font-family: Gotham Bold, Arial, sans-serif; 
+	font-size : 12pt;
+	padding : 4px;
+	vertical-align:middle;
+	cursor:pointer;
+	margin : 10px;
+	font-weight : bold;
+	border-style: hidden;
+	border-width: 0px;
+}
+
+.GrillaHyperlinkVioleta 
+{
+  	background: #fff url('imagenes/barra-horizl-violeta-400.png') repeat-y;
+	border-radius: 10px;
+    padding:10px;
+	height:50px;
+	width:300px;
+	text-align: center;
+
+}
+
+.update
+{
+position: fixed;
+top: 0px;
+left: 0px;
+min-height: 100%;
+min-width: 100%;
+background-image: url("App_Themes/TURNOS/IMAGES/Progreso4.gif");
+background-position:center center;
+background-repeat:no-repeat;
+background-color: #e4e4e6;
+z-index: 500 !important;
+opacity: 0.8;
+overflow: hidden;
+}
+
+.CajaDialogo
+{
+    background-color: #00ABA4;
+    border-width: 4px;
+    border-style: outset;
+    border-color: Black;
+    padding: 0px;
+    width: 375px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.CajaDialogo div
+{
+    margin: 7px;
+    text-align: center;
+}
+
+.modalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+

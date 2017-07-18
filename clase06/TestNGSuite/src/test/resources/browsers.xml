@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+   <test name="TestChrome">
+       <classes>
+           <class name="tests.Chrome"/>
+       </classes>
+   </test>
+   <test name="TestFirefox">
+       <classes>
+           <class name="tests.Firefox"/>
+       </classes>
+   </test>
+</suite>

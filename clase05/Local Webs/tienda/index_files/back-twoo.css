@@ -1,0 +1,46 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+margin: 0;
+padding: 0;
+}
+
+body { background: #dfdfdf url(../images/back-twoo.jpg) repeat-x;  margin:0; font-family:Arial, Helvetica, sans-serif;}
+
+
+#content {
+width: 1000px;
+margin: 0px auto;
+background:url(../images/pageMain-twoo.jpg) no-repeat;
+}
+
+
+#sidebar .menuTop {
+background:url("../images/top-carro.png") no-repeat;
+float:left;
+height:6px;
+width:213px;
+}
+
+#sidebar .menuMiddle {
+background: #0d0d0d;
+float:left;
+height:auto;
+overflow:hidden;
+padding:0 10px 10px 10px;
+width:193px;
+}
+
+#sidebar .menuBottom {
+background:url("../images/bottom-carro.png") no-repeat scroll 0 0 transparent;
+float:left;
+height:6px;
+margin-bottom:10px;
+width:213px;
+}
+
+#sidebar li {
+border-bottom:1px dotted #333;
+font-size:12px;
+list-style-image:url("../images/li.png");
+margin:2px 0;
+padding:2px 0;
+}

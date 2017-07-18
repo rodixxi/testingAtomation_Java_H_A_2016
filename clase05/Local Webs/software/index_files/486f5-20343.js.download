@@ -1,0 +1,7 @@
+/* charset "utf-8"; */
+/* Pieces: page_category_list_set */
+/* base_path_placeholder */
+/* @JAVASCRIPT page_category_list_set */
+(function(a,b){a.register("category_list_set",function(){return{init:function(){b.pages.results.commonBehavior()}}})}(Namespace.PageLoader,Namespace));
+/* @end JAVASCRIPT page_category_list_set */
+/* js_templates_placeholder */
